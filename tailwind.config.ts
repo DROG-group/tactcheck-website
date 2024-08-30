@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 const config: Config = {
   content: [
@@ -8,6 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: '"DM Serif Text", serif',
+      },
+      colors: {
+        tolopea: {
+          DEFAULT: "#19003D",
+          50: "#6400F5",
+          100: "#5C00E0",
+          200: "#4B00B7",
+          300: "#3A008F",
+          400: "#2A0066",
+          500: "#19003D",
+          600: "#020005",
+          700: "#000000",
+          800: "#000000",
+          900: "#000000",
+          950: "#000000",
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +34,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
-};
-export default config;
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
+  daisyui: {
+    themes: ["lofi", "black"],
+  },
+}
+export default config
