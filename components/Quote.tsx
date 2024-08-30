@@ -17,8 +17,8 @@ function Quote() {
         </svg>
         <blockquote>
           <p className="text-2xl italic font-medium font-serif">
-            "A lie can travel halfway around the world while the truth is still
-            putting on its shoes,"
+            &quot;A lie can travel halfway around the world while the truth is
+            still putting on its shoes,&quot;
           </p>
         </blockquote>
         <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
