@@ -19,7 +19,7 @@ function CTA() {
         </Link>
         <span>or</span>
         <Link
-          href="https://glitch.tactcheck.com/public/local"
+          href="https://dev.tactcheck.com"
           className="btn btn-outline no-underline"
           target="_blank"
         >
