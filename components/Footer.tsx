@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 
 function Footer() {
@@ -7,11 +8,22 @@ function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm sm:text-center">
             © {new Date().getFullYear()}{" "}
-            <a href="https://drog.group/" className="hover:underline">
+            <Link
+              href="https://drog.group"
+              className="hover:underline text-primary-content"
+              target="_blank"
+            >
               DROG Group
-            </a>
+            </Link>
             . All Rights Reserved.
           </span>
+          <Link
+            href="https://drog.group"
+            className="text-sm hover:underline text-primary-content"
+            target="_blank"
+          >
+            drog.group
+          </Link>
         </div>
       </div>
     </footer>

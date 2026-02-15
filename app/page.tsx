@@ -1,15 +1,17 @@
 import CTA from "@/components/CTA"
 import Header from "@/components/Header"
-import Quote from "@/components/Quote"
-import Tiles from "@/components/Tiles"
+import Problem from "@/components/Problem"
+import Features from "@/components/Features"
+import Audience from "@/components/Audience"
 import React from "react"
 
 function page() {
   return (
     <main className="flex flex-col items-center">
       <Header />
-      <Quote />
-      <Tiles />
+      <Problem />
+      <Features />
+      <Audience />
       <CTA />
     </main>
   )

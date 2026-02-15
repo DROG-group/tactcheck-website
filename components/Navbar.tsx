@@ -8,6 +8,21 @@ function Navbar() {
         <h1 className="font-serif font-bold uppercase text-3xl">TactCheck</h1>
       </Link>
       <div className="grow" />
+      <nav className="flex flex-row items-center space-x-6 text-sm">
+        <Link href="#features" className="hover:underline hidden sm:block">
+          Features
+        </Link>
+        <Link href="#who" className="hover:underline hidden sm:block">
+          Who It's For
+        </Link>
+        <Link
+          href="https://drog.group"
+          className="btn btn-primary btn-sm no-underline text-primary-content"
+          target="_blank"
+        >
+          DROG Group
+        </Link>
+      </nav>
     </div>
   )
 }
