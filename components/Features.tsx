@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 
 const features = [
@@ -44,6 +45,26 @@ function Features() {
           Everything you need to study disinformation tactics in a safe,
           controllable environment.
         </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 not-prose">
+        <div className="border border-dashed border-primary p-2 overflow-hidden">
+          <Image
+            src="/screenshot-game.png"
+            alt="TactCheck game interface showing disinformation tactics cards"
+            width={1000}
+            height={600}
+            className="w-full h-auto invert grayscale"
+          />
+        </div>
+        <div className="border border-dashed border-primary p-2 overflow-hidden">
+          <Image
+            src="/screenshot-import.png"
+            alt="TactCheck data import — CSV and Google Sheets"
+            width={1000}
+            height={600}
+            className="w-full h-auto invert grayscale"
+          />
+        </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 not-prose">
         {features.map((feature) => (
