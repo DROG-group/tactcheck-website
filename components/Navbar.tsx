@@ -12,6 +12,9 @@ function Navbar() {
         <Link href="#features" className="hover:underline hidden sm:block">
           Features
         </Link>
+        <Link href="#projects" className="hover:underline hidden sm:block">
+          Projects
+        </Link>
         <Link href="#who" className="hover:underline hidden sm:block">
           Who It's For
         </Link>
