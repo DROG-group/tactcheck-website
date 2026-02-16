@@ -20,7 +20,7 @@ const features = [
   {
     title: "Mothbook",
     description:
-      "A Facebook-like simulation layer. Study platform-specific dynamics — groups, shares, reactions — in a controlled research setting.",
+      "A Facebook-like simulation layer. Study platform-specific dynamics (groups, shares, reactions) in a controlled research setting.",
   },
   {
     title: "AI Bots & Adaptive Cards",
@@ -59,7 +59,7 @@ function Features() {
         <div className="border border-dashed border-primary p-2 overflow-hidden">
           <Image
             src="/screenshot-import.png"
-            alt="TactCheck data import — CSV and Google Sheets"
+            alt="TactCheck data import via CSV and Google Sheets"
             width={1000}
             height={600}
             className="w-full h-auto invert grayscale"

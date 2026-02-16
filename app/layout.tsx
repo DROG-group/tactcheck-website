@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 
 export const metadata: Metadata = {
-  title: "TactCheck — Check Tactics, Not Just Facts",
+  title: "TactCheck - Check Tactics, Not Just Facts",
   description:
     "A Mastodon-based simulation environment for researchers to study disinformation tactics at scale. By DROG.",
 }

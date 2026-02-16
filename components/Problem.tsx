@@ -25,7 +25,7 @@ function Problem() {
           <div>
             <h3 className="font-serif text-xl mb-2">Misses the Point</h3>
             <p className="opacity-80">
-              Disinformation works through <em>tactics</em> — emotional
+              Disinformation works through <em>tactics</em>: emotional
               manipulation, coordinated amplification, narrative seeding. The
               individual claim is just the surface.
             </p>

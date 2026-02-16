@@ -16,7 +16,7 @@ function Header() {
         </h1>
         <p className="prose-xl text-center max-w-2xl">
           TactCheck is a Mastodon-based simulation environment where researchers
-          study how disinformation spreads — by examining the{" "}
+          study how disinformation spreads by examining the{" "}
           <strong>tactics</strong>, not chasing individual claims. Built with{" "}
           <strong>tact</strong>.
         </p>
