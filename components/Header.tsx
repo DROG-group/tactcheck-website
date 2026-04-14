@@ -7,7 +7,7 @@ function Header() {
     <div className="flex flex-col w-full h-full mt-20 mb-20">
       <div className="flex flex-col prose items-center justify-center mx-auto max-w-3xl">
         <p className="text-sm uppercase tracking-widest opacity-60 mb-0">
-          Fact-checking isn't working.
+          Fact-checking isn&rsquo;t working.
         </p>
         <h1 className="font-serif text-center text-5xl lg:text-6xl mt-2">
           Check Tactics,

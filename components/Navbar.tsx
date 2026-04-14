@@ -13,7 +13,7 @@ function Navbar() {
           Features
         </Link>
         <Link href="#who" className="hover:underline hidden sm:block">
-          Who It's For
+          Who It&rsquo;s For
         </Link>
         <Link
           href="https://drog.group"

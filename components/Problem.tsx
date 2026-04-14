@@ -18,7 +18,7 @@ function Problem() {
           <div>
             <h3 className="font-serif text-xl mb-2">Whack-a-Mole</h3>
             <p className="opacity-80">
-              Every false claim checked spawns three more. You can't fact-check
+              Every false claim checked spawns three more. You can&rsquo;t fact-check
               your way out of an industrial-scale disinformation operation.
             </p>
           </div>

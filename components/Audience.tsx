@@ -31,7 +31,7 @@ function Audience() {
     >
       <div className="max-w-5xl mx-auto">
         <div className="prose mx-auto text-center mb-12">
-          <h2 className="font-serif text-3xl lg:text-4xl">Who It's For</h2>
+          <h2 className="font-serif text-3xl lg:text-4xl">Who It&rsquo;s For</h2>
           <p className="prose-lg">
             TactCheck serves anyone serious about understanding how
             disinformation actually works.
