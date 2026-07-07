@@ -53,6 +53,7 @@
     "glob": {
       "minimatch": "9.0.7"
     },
+    "js-yaml": "^4.2.0",
     "micromatch": {
       "picomatch": "2.3.2"
     },
